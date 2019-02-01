@@ -238,7 +238,7 @@ border-radius: 50%;
 								var colors = [
 										['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0'], ['#ffffff','#6ed4c0']
 									];
-								for (var i = 1; i <= 1; i++) {
+							 	for (var i = 1; i <= 1; i++) {
 									var child = document.getElementById('circles-' + i),
 										percentage = 65;
 										
@@ -252,9 +252,9 @@ border-radius: 50%;
 										colors:     colors[i - 1]
 									});
 								}
-								for (var i = 2; i <= 2; i++){
+							 	for (var i = 21; i <= 2; i++) {
 									var child = document.getElementById('circles-' + i),
-										percentage = 60;
+										percentage = 65;
 										
 									Circles.create({
 										id:         child.id,
@@ -266,9 +266,9 @@ border-radius: 50%;
 										colors:     colors[i - 1]
 									});
 								}
-								for (var i = 3; i <= 3; i++){
+								for (var i = 3; i <= 3; i++) {
 									var child = document.getElementById('circles-' + i),
-										percentage = 60;
+										percentage = 65;
 										
 									Circles.create({
 										id:         child.id,
@@ -281,6 +281,34 @@ border-radius: 50%;
 									});
 								}
 								for (var i = 4; i <= 4; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 60;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+								for (var i = 5; i <= 5; i++){
+									var child = document.getElementById('circles-' + i),
+										percentage = 60;
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+								for (var i = 6; i <= 6; i++){
 									var child = document.getElementById('circles-' + i),
 										percentage = 55;
 										
